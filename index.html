@@ -1,0 +1,710 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chessboard">
+    <!-- 64 Squares -->
+    <!-- <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+</div>
+
+</body>
+</html> --> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title >Salt'n Pepper Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>Salt'n<br>Pe<span>p</span>per</h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="btn outline">Order Online</button>
+                <button class="btn red">Get a Franchise</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO</p>
+
+            <h2>
+                Salt'n Pepper
+                <span>Restaurant</span>
+            </h2>
+
+            <p>
+                Discover delicious food, great taste and
+                unforgettable moments with us.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn red">Order Now</button>
+                <button class="btn outline">Explore Menu</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="food-circle">
+                🍔
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <p>ABOUT US</p>
+            <h2>Welcome to Salt'n Pepper</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <div class="image-box">🍽️</div>
+            </div>
+
+            <div class="about-text">
+                <h2>Best Food, Best Taste</h2>
+
+                <p>
+                    Salt'n Pepper is a restaurant that believes
+                    great food brings people together. We serve
+                    fresh, delicious and high-quality meals made
+                    with love.
+                </p>
+
+                <p>
+                    From delicious burgers and pizzas to
+                    traditional Pakistani food, we have something
+                    for everyone.
+                </p>
+
+                <button class="btn red">Learn More</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+
+    <section class="menu" id="menu">
+
+        <div class="section-title">
+            <p>OUR MENU</p>
+            <h2>Choose Your Favourite</h2>
+        </div>
+
+        <div class="menu-cards">
+
+            <div class="menu-card">
+                <div class="food-icon">🍔</div>
+                <h3>Burgers</h3>
+                <p>
+                    Juicy burgers prepared with fresh
+                    ingredients.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🍕</div>
+                <h3>Pizza</h3>
+                <p>
+                    Hot and cheesy pizzas with delicious
+                    toppings.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🍗</div>
+                <h3>Chicken</h3>
+                <p>
+                    Crispy and spicy chicken made fresh
+                    for you.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🥤</div>
+                <h3>Beverages</h3>
+                <p>
+                    Refreshing drinks to complete your
+                    perfect meal.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= POPULAR ITEMS ================= -->
+
+    <section class="popular">
+
+        <div class="section-title">
+            <p>POPULAR ITEMS</p>
+            <h2>Our Most Loved Food</h2>
+        </div>
+
+        <div class="food-grid">
+
+            <div class="food-card">
+                <div class="food-picture">🍔</div>
+
+                <div class="food-info">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef burger with fresh vegetables.</p>
+                    <strong>Rs. 599</strong>
+                </div>
+            </div>
+
+
+            <div class="food-card">
+                <div class="food-picture">🍕</div>
+
+                <div class="food-info">
+                    <h3>Chicken Pizza</h3>
+                    <p>Loaded with chicken and mozzarella cheese.</p>
+                    <strong>Rs. 999</strong>
+                </div>
+            </div>
+
+
+            <div class="food-card">
+                <div class="food-picture">🍗</div>
+
+                <div class="food-info">
+                    <h3>Crispy Chicken</h3>
+                    <p>Golden crispy chicken with special spices.</p>
+                    <strong>Rs. 699</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BRANCHES ================= -->
+
+    <section class="branches" id="branches">
+
+        <div class="section-title">
+            <p>OUR BRANCHES</p>
+            <h2>Visit Us</h2>
+        </div>
+
+        <div class="branch-container">
+
+            <div class="branch">
+                <h3>Karachi</h3>
+                <p>
+                    Main Clifton Road, Karachi
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+            <div class="branch">
+                <h3>Lahore</h3>
+                <p>
+                    MM Alam Road, Lahore
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+            <div class="branch">
+                <h3>Islamabad</h3>
+                <p>
+                    Blue Area, Islamabad
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+            <p>CONTACT US</p>
+            <h2>Get In Touch</h2>
+        </div>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Phone Number">
+
+            <textarea
+                rows="5"
+                placeholder="Your Message">
+            </textarea>
+
+            <button class="btn red" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <h2>Salt'n Pepper</h2>
+
+                <p>
+                    Delicious food made with passion
+                    and served with love.
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#branches">Branches</a>
+            </div>
+
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>📞 +92 300 1234567</p>
+                <p>📧 info@saltnpepper.com</p>
+                <p>📍 Pakistan</p>
+            </div>
+
+
+            <div>
+                <h3>Follow Us</h3>
+
+                <div class="social">
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>YouTube</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                © 2026 Salt'n Pepper Restaurant.
+                All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Salt'n Pepper Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>Salt'n<br>Pe<span>p</span>per</h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="btn outline">Order Online</button>
+                <button class="btn red">Get a Franchise</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO</p>
+
+            <h2>
+                Salt'n Pepper
+                <span>Restaurant</span>
+            </h2>
+
+            <p>
+                Discover delicious food, great taste and
+                unforgettable moments with us.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn red">Order Now</button>
+                <button class="btn outline">Explore Menu</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="food-circle">
+                🍔
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <p>ABOUT US</p>
+            <h2>Welcome to Salt'n Pepper</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <div class="image-box">🍽️</div>
+            </div>
+
+            <div class="about-text">
+                <h2>Best Food, Best Taste</h2>
+
+                <p>
+                    Salt'n Pepper is a restaurant that believes
+                    great food brings people together. We serve
+                    fresh, delicious and high-quality meals made
+                    with love.
+                </p>
+
+                <p>
+                    From delicious burgers and pizzas to
+                    traditional Pakistani food, we have something
+                    for everyone.
+                </p>
+
+                <button class="btn red">Learn More</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+
+    <section class="menu" id="menu">
+
+        <div class="section-title">
+            <p>OUR MENU</p>
+            <h2>Choose Your Favourite</h2>
+        </div>
+
+        <div class="menu-cards">
+
+            <div class="menu-card">
+                <div class="food-icon">🍔</div>
+                <h3>Burgers</h3>
+                <p>
+                    Juicy burgers prepared with fresh
+                    ingredients.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🍕</div>
+                <h3>Pizza</h3>
+                <p>
+                    Hot and cheesy pizzas with delicious
+                    toppings.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🍗</div>
+                <h3>Chicken</h3>
+                <p>
+                    Crispy and spicy chicken made fresh
+                    for you.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🥤</div>
+                <h3>Beverages</h3>
+                <p>
+                    Refreshing drinks to complete your
+                    perfect meal.
+                </p>
+                <button class="btn red">View Menu</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= POPULAR ITEMS ================= -->
+
+    <section class="popular">
+
+        <div class="section-title">
+            <p>POPULAR ITEMS</p>
+            <h2>Our Most Loved Food</h2>
+        </div>
+
+        <div class="food-grid">
+
+            <div class="food-card">
+                <div class="food-picture">🍔</div>
+
+                <div class="food-info">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef burger with fresh vegetables.</p>
+                    <strong>Rs. 599</strong>
+                </div>
+            </div>
+
+
+            <div class="food-card">
+                <div class="food-picture">🍕</div>
+
+                <div class="food-info">
+                    <h3>Chicken Pizza</h3>
+                    <p>Loaded with chicken and mozzarella cheese.</p>
+                    <strong>Rs. 999</strong>
+                </div>
+            </div>
+
+
+            <div class="food-card">
+                <div class="food-picture">🍗</div>
+
+                <div class="food-info">
+                    <h3>Crispy Chicken</h3>
+                    <p>Golden crispy chicken with special spices.</p>
+                    <strong>Rs. 699</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BRANCHES ================= -->
+
+    <section class="branches" id="branches">
+
+        <div class="section-title">
+            <p>OUR BRANCHES</p>
+            <h2>Visit Us</h2>
+        </div>
+
+        <div class="branch-container">
+
+            <div class="branch">
+                <h3>Karachi</h3>
+                <p>
+                    Main Clifton Road, Karachi
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+            <div class="branch">
+                <h3>Lahore</h3>
+                <p>
+                    MM Alam Road, Lahore
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+            <div class="branch">
+                <h3>Islamabad</h3>
+                <p>
+                    Blue Area, Islamabad
+                </p>
+                <button class="btn outline">View Location</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+            <p>CONTACT US</p>
+            <h2>Get In Touch</h2>
+        </div>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Phone Number">
+
+            <textarea
+                rows="5"
+                placeholder="Your Message">
+            </textarea>
+
+            <button class="btn red" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <h2>Salt'n Pepper</h2>
+
+                <p>
+                    Delicious food made with passion
+                    and served with love.
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#branches">Branches</a>
+            </div>
+
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>📞 +92 300 1234567</p>
+                <p>📧 info@saltnpepper.com</p>
+                <p>📍 Pakistan</p>
+            </div>
+
+
+            <div>
+                <h3>Follow Us</h3>
+
+                <div class="social">
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>YouTube</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                © 2026 Salt'n Pepper Restaurant.
+                All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
