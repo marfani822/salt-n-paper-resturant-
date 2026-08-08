@@ -1,0 +1,589 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+}
+
+
+/* ================= NAVBAR ================= */
+
+header {
+    background: #000;
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 25px;
+}
+
+
+/* LOGO */
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.logo span {
+    color: #e4002b;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e4002b;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    padding: 13px 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.red {
+    background: #e4002b;
+    color: white;
+}
+
+.red:hover {
+    background: #b90023;
+}
+
+.outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.outline:hover {
+    background: white;
+    color: #000;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 550px;
+
+    background: #f5f5f5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 10%;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.small-title {
+    color: #e4002b;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h2 span {
+    color: #e4002b;
+    display: block;
+}
+
+.hero-text > p:not(.small-title) {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+
+/* HERO IMAGE */
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-circle {
+    width: 330px;
+    height: 330px;
+
+    border-radius: 50%;
+
+    background: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 140px;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+
+/* ================= SECTION TITLE ================= */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title p {
+    color: #e4002b;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    font-size: 38px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    padding: 90px 10%;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.image-box {
+    height: 350px;
+
+    border-radius: 10px;
+
+    background: #111;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 130px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+/* ================= MENU ================= */
+
+.menu {
+    background: #f5f5f5;
+    padding: 90px 10%;
+}
+
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.menu-card {
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.food-icon {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.menu-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.menu-card p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* ================= POPULAR ================= */
+
+.popular {
+    padding: 90px 10%;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.food-card {
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+}
+
+.food-picture {
+    height: 220px;
+
+    background: #eeeeee;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+}
+
+.food-info {
+    padding: 25px;
+}
+
+.food-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.food-info p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.food-info strong {
+    color: #e4002b;
+    font-size: 20px;
+}
+
+
+/* ================= BRANCHES ================= */
+
+.branches {
+    background: #f5f5f5;
+    padding: 90px 10%;
+}
+
+.branch-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.branch {
+    background: #000;
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 25px;
+
+    border-radius: 10px;
+}
+
+.branch h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.branch p {
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+    padding: 90px 10%;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #e4002b;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #000;
+    color: white;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 60px 25px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    gap: 40px;
+}
+
+.footer-logo h2 {
+    color: #e4002b;
+    margin-bottom: 15px;
+}
+
+.footer-content h3 {
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    color: #aaa;
+    line-height: 1.7;
+}
+
+.footer-content a {
+    display: block;
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    margin-bottom: 10px;
+}
+
+.footer-content a:hover {
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social span {
+    color: #aaa;
+}
+
+.copyright {
+    border-top: 1px solid #333;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.copyright p {
+    color: #777;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero h2 {
+        font-size: 45px;
+    }
+
+    .menu-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .food-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .branch-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .nav-buttons .outline {
+        display: none;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .food-circle {
+        width: 230px;
+        height: 230px;
+        font-size: 90px;
+    }
+
+    .about,
+    .menu,
+    .popular,
+    .branches,
+    .contact {
+        padding: 60px 20px;
+    }
+
+    .menu-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
